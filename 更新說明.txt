@@ -1,6 +1,7 @@
-My Music 5.3.1 手機快取修正版
-修正上一版 sw.js 預先快取不存在的 manifest.webmanifest 與 icon.svg，造成 Service Worker 安裝失敗的問題。
-新增 manifest.webmanifest；導覽頁採網路優先且不使用 HTTP 快取。
-保留原本 IndexedDB 名稱 my-music-v2、songs 資料表、localStorage 分類資料，保留 5.3 移動資料夾功能。
-更新 GitHub 時請上傳 ZIP 解壓後的所有檔案至專案根目錄。
-請勿清除網站資料或解除安裝 App。
+My Music 5.4 雙模式精簡版
+
+播放：歌曲、進度、上一首／下一首、隨機、循環、播放速度。音量收合。
+音樂庫：分類、移動資料夾、歌曲搜尋、匯入 MP3、最愛等功能。清空音樂庫收進進階管理。
+沿用 my-music-v2 IndexedDB、mm4_categories 與 mm2_favs，不執行資料清除。
+上傳所有檔案到 GitHub Pages 專案根目錄，等待部署完成。
+請先備份重要 MP3，勿清除網站資料或解除安裝。
