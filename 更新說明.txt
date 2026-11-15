@@ -1,5 +1,6 @@
-My Music 5.0 多層分類音樂庫
-可在日語下新增「XX課程」「開口說日語」「上課錄音」等子目錄。
-點進父目錄可看到其下所有歌曲；點選子目錄只看該子目錄歌曲。
-分類為 APP 內虛擬目錄，不會移動手機原始音檔。
-請先備份原始 MP3。將所有新版檔案上傳至原 GitHub 專案根目錄並覆蓋同名檔案。
+My Music 5.3.1 手機快取修正版
+修正上一版 sw.js 預先快取不存在的 manifest.webmanifest 與 icon.svg，造成 Service Worker 安裝失敗的問題。
+新增 manifest.webmanifest；導覽頁採網路優先且不使用 HTTP 快取。
+保留原本 IndexedDB 名稱 my-music-v2、songs 資料表、localStorage 分類資料，保留 5.3 移動資料夾功能。
+更新 GitHub 時請上傳 ZIP 解壓後的所有檔案至專案根目錄。
+請勿清除網站資料或解除安裝 App。
