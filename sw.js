@@ -1,5 +1,5 @@
-// My Music 5.6.1: network-first pages; never delete IndexedDB or localStorage.
-const CACHE = 'my-music-5-6-1-v1';
+// My Music 5.6.2: network-first pages; never delete IndexedDB or localStorage.
+const CACHE = 'my-music-5-6-2-v1';
 self.addEventListener('install', event => {
   event.waitUntil(self.skipWaiting());
 });
